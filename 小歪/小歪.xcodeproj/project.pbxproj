@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D500121C9F2EF3006F413E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D500111C9F2EF3006F413E /* main.m */; };
+		84D500151C9F2EF3006F413E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D500141C9F2EF3006F413E /* AppDelegate.m */; };
+		84D500181C9F2EF3006F413E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D500171C9F2EF3006F413E /* ViewController.m */; };
+		84D5001B1C9F2EF3006F413E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D500191C9F2EF3006F413E /* Main.storyboard */; };
+		84D5001D1C9F2EF3006F413E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D5001C1C9F2EF3006F413E /* Assets.xcassets */; };
+		84D500201C9F2EF3006F413E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D5001E1C9F2EF3006F413E /* LaunchScreen.storyboard */; };
+		84D5002B1C9F2EF3006F413E /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5002A1C9F2EF3006F413E /* __Tests.m */; };
+		84D500361C9F2EF4006F413E /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D500351C9F2EF4006F413E /* __UITests.m */; };
+		84D500911C9F3C2D006F413E /* libdoublefann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D500851C9F3C2D006F413E /* libdoublefann.2.2.0.dylib */; };
+		84D500921C9F3C2D006F413E /* libdoublefann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D500861C9F3C2D006F413E /* libdoublefann.2.2.0.dylib */; };
+		84D500931C9F3C2D006F413E /* libfann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D500871C9F3C2D006F413E /* libfann.2.2.0.dylib */; };
+		84D500941C9F3C2D006F413E /* libfann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D500881C9F3C2D006F413E /* libfann.2.2.0.dylib */; };
+		84D500951C9F3C2D006F413E /* libfixedfann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D500891C9F3C2D006F413E /* libfixedfann.2.2.0.dylib */; };
+		84D500961C9F3C2D006F413E /* libfixedfann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5008A1C9F3C2D006F413E /* libfixedfann.2.2.0.dylib */; };
+		84D500971C9F3C2D006F413E /* libfloatfann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5008B1C9F3C2D006F413E /* libfloatfann.2.2.0.dylib */; };
+		84D500981C9F3C2D006F413E /* libfloatfann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5008C1C9F3C2D006F413E /* libfloatfann.2.2.0.dylib */; };
+		84D500991C9F3C2D006F413E /* libdoublefann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5008D1C9F3C2D006F413E /* libdoublefann.2.2.0.dylib */; };
+		84D5009A1C9F3C2D006F413E /* libfann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5008E1C9F3C2D006F413E /* libfann.2.2.0.dylib */; };
+		84D5009B1C9F3C2D006F413E /* libfixedfann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5008F1C9F3C2D006F413E /* libfixedfann.2.2.0.dylib */; };
+		84D5009C1C9F3C2D006F413E /* libfloatfann.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D500901C9F3C2D006F413E /* libfloatfann.2.2.0.dylib */; };
+		84D500AF1C9F3FE0006F413E /* XYRobotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D500AE1C9F3FE0006F413E /* XYRobotManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D500271C9F2EF3006F413E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D500051C9F2EF3006F413E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D5000C1C9F2EF3006F413E;
+			remoteInfo = "小歪";
+		};
+		84D500321C9F2EF4006F413E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D500051C9F2EF3006F413E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D5000C1C9F2EF3006F413E;
+			remoteInfo = "小歪";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D5000D1C9F2EF3006F413E /* 小歪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小歪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D500111C9F2EF3006F413E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D500131C9F2EF3006F413E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D500141C9F2EF3006F413E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D500161C9F2EF3006F413E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84D500171C9F2EF3006F413E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84D5001A1C9F2EF3006F413E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D5001C1C9F2EF3006F413E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D5001F1C9F2EF3006F413E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D500211C9F2EF3006F413E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D500261C9F2EF3006F413E /* 小歪Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小歪Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D5002A1C9F2EF3006F413E /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		84D5002C1C9F2EF4006F413E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D500311C9F2EF4006F413E /* 小歪UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小歪UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D500351C9F2EF4006F413E /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		84D500371C9F2EF4006F413E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D500851C9F3C2D006F413E /* libdoublefann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libdoublefann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D500861C9F3C2D006F413E /* libdoublefann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libdoublefann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D500871C9F3C2D006F413E /* libfann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D500881C9F3C2D006F413E /* libfann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D500891C9F3C2D006F413E /* libfixedfann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfixedfann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D5008A1C9F3C2D006F413E /* libfixedfann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfixedfann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D5008B1C9F3C2D006F413E /* libfloatfann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfloatfann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D5008C1C9F3C2D006F413E /* libfloatfann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfloatfann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D5008D1C9F3C2D006F413E /* libdoublefann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libdoublefann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D5008E1C9F3C2D006F413E /* libfann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D5008F1C9F3C2D006F413E /* libfixedfann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfixedfann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D500901C9F3C2D006F413E /* libfloatfann.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfloatfann.2.2.0.dylib; sourceTree = "<group>"; };
+		84D5009E1C9F3C89006F413E /* compat_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compat_time.h; sourceTree = "<group>"; };
+		84D5009F1C9F3C89006F413E /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		84D500A01C9F3C89006F413E /* doublefann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doublefann.h; sourceTree = "<group>"; };
+		84D500A11C9F3C89006F413E /* fann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann.h; sourceTree = "<group>"; };
+		84D500A21C9F3C89006F413E /* fann_activation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_activation.h; sourceTree = "<group>"; };
+		84D500A31C9F3C89006F413E /* fann_cascade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_cascade.h; sourceTree = "<group>"; };
+		84D500A41C9F3C89006F413E /* fann_cpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_cpp.h; sourceTree = "<group>"; };
+		84D500A51C9F3C89006F413E /* fann_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_data.h; sourceTree = "<group>"; };
+		84D500A61C9F3C89006F413E /* fann_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_error.h; sourceTree = "<group>"; };
+		84D500A71C9F3C89006F413E /* fann_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_internal.h; sourceTree = "<group>"; };
+		84D500A81C9F3C89006F413E /* fann_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_io.h; sourceTree = "<group>"; };
+		84D500A91C9F3C89006F413E /* fann_train.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_train.h; sourceTree = "<group>"; };
+		84D500AA1C9F3C89006F413E /* fixedfann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixedfann.h; sourceTree = "<group>"; };
+		84D500AB1C9F3C89006F413E /* floatfann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floatfann.h; sourceTree = "<group>"; };
+		84D500AD1C9F3FE0006F413E /* XYRobotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYRobotManager.h; path = Robot/XYRobotManager.h; sourceTree = "<group>"; };
+		84D500AE1C9F3FE0006F413E /* XYRobotManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYRobotManager.m; path = Robot/XYRobotManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D5000A1C9F2EF3006F413E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5009C1C9F3C2D006F413E /* libfloatfann.2.2.0.dylib in Frameworks */,
+				84D500981C9F3C2D006F413E /* libfloatfann.2.2.0.dylib in Frameworks */,
+				84D500921C9F3C2D006F413E /* libdoublefann.2.2.0.dylib in Frameworks */,
+				84D500941C9F3C2D006F413E /* libfann.2.2.0.dylib in Frameworks */,
+				84D5009B1C9F3C2D006F413E /* libfixedfann.2.2.0.dylib in Frameworks */,
+				84D500951C9F3C2D006F413E /* libfixedfann.2.2.0.dylib in Frameworks */,
+				84D500991C9F3C2D006F413E /* libdoublefann.2.2.0.dylib in Frameworks */,
+				84D500931C9F3C2D006F413E /* libfann.2.2.0.dylib in Frameworks */,
+				84D500961C9F3C2D006F413E /* libfixedfann.2.2.0.dylib in Frameworks */,
+				84D500971C9F3C2D006F413E /* libfloatfann.2.2.0.dylib in Frameworks */,
+				84D500911C9F3C2D006F413E /* libdoublefann.2.2.0.dylib in Frameworks */,
+				84D5009A1C9F3C2D006F413E /* libfann.2.2.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D500231C9F2EF3006F413E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5002E1C9F2EF4006F413E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D500041C9F2EF3006F413E = {
+			isa = PBXGroup;
+			children = (
+				84D5000F1C9F2EF3006F413E /* 小歪 */,
+				84D500291C9F2EF3006F413E /* 小歪Tests */,
+				84D500341C9F2EF4006F413E /* 小歪UITests */,
+				84D5000E1C9F2EF3006F413E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D5000E1C9F2EF3006F413E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D5000D1C9F2EF3006F413E /* 小歪.app */,
+				84D500261C9F2EF3006F413E /* 小歪Tests.xctest */,
+				84D500311C9F2EF4006F413E /* 小歪UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D5000F1C9F2EF3006F413E /* 小歪 */ = {
+			isa = PBXGroup;
+			children = (
+				84D500AC1C9F3FAF006F413E /* Robot */,
+				84D5006B1C9F37B4006F413E /* lib */,
+				84D500131C9F2EF3006F413E /* AppDelegate.h */,
+				84D500141C9F2EF3006F413E /* AppDelegate.m */,
+				84D500161C9F2EF3006F413E /* ViewController.h */,
+				84D500171C9F2EF3006F413E /* ViewController.m */,
+				84D500191C9F2EF3006F413E /* Main.storyboard */,
+				84D5001C1C9F2EF3006F413E /* Assets.xcassets */,
+				84D5001E1C9F2EF3006F413E /* LaunchScreen.storyboard */,
+				84D500211C9F2EF3006F413E /* Info.plist */,
+				84D500101C9F2EF3006F413E /* Supporting Files */,
+			);
+			path = "小歪";
+			sourceTree = "<group>";
+		};
+		84D500101C9F2EF3006F413E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D500111C9F2EF3006F413E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D500291C9F2EF3006F413E /* 小歪Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84D5002A1C9F2EF3006F413E /* __Tests.m */,
+				84D5002C1C9F2EF4006F413E /* Info.plist */,
+			);
+			path = "小歪Tests";
+			sourceTree = "<group>";
+		};
+		84D500341C9F2EF4006F413E /* 小歪UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D500351C9F2EF4006F413E /* __UITests.m */,
+				84D500371C9F2EF4006F413E /* Info.plist */,
+			);
+			path = "小歪UITests";
+			sourceTree = "<group>";
+		};
+		84D5006B1C9F37B4006F413E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				84D5006C1C9F37B4006F413E /* FANN */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		84D5006C1C9F37B4006F413E /* FANN */ = {
+			isa = PBXGroup;
+			children = (
+				84D5009D1C9F3C89006F413E /* include */,
+				84D500851C9F3C2D006F413E /* libdoublefann.2.2.0.dylib */,
+				84D500861C9F3C2D006F413E /* libdoublefann.2.2.0.dylib */,
+				84D500871C9F3C2D006F413E /* libfann.2.2.0.dylib */,
+				84D500881C9F3C2D006F413E /* libfann.2.2.0.dylib */,
+				84D500891C9F3C2D006F413E /* libfixedfann.2.2.0.dylib */,
+				84D5008A1C9F3C2D006F413E /* libfixedfann.2.2.0.dylib */,
+				84D5008B1C9F3C2D006F413E /* libfloatfann.2.2.0.dylib */,
+				84D5008C1C9F3C2D006F413E /* libfloatfann.2.2.0.dylib */,
+				84D5008D1C9F3C2D006F413E /* libdoublefann.2.2.0.dylib */,
+				84D5008E1C9F3C2D006F413E /* libfann.2.2.0.dylib */,
+				84D5008F1C9F3C2D006F413E /* libfixedfann.2.2.0.dylib */,
+				84D500901C9F3C2D006F413E /* libfloatfann.2.2.0.dylib */,
+			);
+			path = FANN;
+			sourceTree = "<group>";
+		};
+		84D5009D1C9F3C89006F413E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				84D5009E1C9F3C89006F413E /* compat_time.h */,
+				84D5009F1C9F3C89006F413E /* config.h */,
+				84D500A01C9F3C89006F413E /* doublefann.h */,
+				84D500A11C9F3C89006F413E /* fann.h */,
+				84D500A21C9F3C89006F413E /* fann_activation.h */,
+				84D500A31C9F3C89006F413E /* fann_cascade.h */,
+				84D500A41C9F3C89006F413E /* fann_cpp.h */,
+				84D500A51C9F3C89006F413E /* fann_data.h */,
+				84D500A61C9F3C89006F413E /* fann_error.h */,
+				84D500A71C9F3C89006F413E /* fann_internal.h */,
+				84D500A81C9F3C89006F413E /* fann_io.h */,
+				84D500A91C9F3C89006F413E /* fann_train.h */,
+				84D500AA1C9F3C89006F413E /* fixedfann.h */,
+				84D500AB1C9F3C89006F413E /* floatfann.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		84D500AC1C9F3FAF006F413E /* Robot */ = {
+			isa = PBXGroup;
+			children = (
+				84D500AD1C9F3FE0006F413E /* XYRobotManager.h */,
+				84D500AE1C9F3FE0006F413E /* XYRobotManager.m */,
+			);
+			name = Robot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D5000C1C9F2EF3006F413E /* 小歪 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5003A1C9F2EF4006F413E /* Build configuration list for PBXNativeTarget "小歪" */;
+			buildPhases = (
+				84D500091C9F2EF3006F413E /* Sources */,
+				84D5000A1C9F2EF3006F413E /* Frameworks */,
+				84D5000B1C9F2EF3006F413E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "小歪";
+			productName = "小歪";
+			productReference = 84D5000D1C9F2EF3006F413E /* 小歪.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D500251C9F2EF3006F413E /* 小歪Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5003D1C9F2EF4006F413E /* Build configuration list for PBXNativeTarget "小歪Tests" */;
+			buildPhases = (
+				84D500221C9F2EF3006F413E /* Sources */,
+				84D500231C9F2EF3006F413E /* Frameworks */,
+				84D500241C9F2EF3006F413E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D500281C9F2EF3006F413E /* PBXTargetDependency */,
+			);
+			name = "小歪Tests";
+			productName = "小歪Tests";
+			productReference = 84D500261C9F2EF3006F413E /* 小歪Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D500301C9F2EF4006F413E /* 小歪UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D500401C9F2EF4006F413E /* Build configuration list for PBXNativeTarget "小歪UITests" */;
+			buildPhases = (
+				84D5002D1C9F2EF4006F413E /* Sources */,
+				84D5002E1C9F2EF4006F413E /* Frameworks */,
+				84D5002F1C9F2EF4006F413E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D500331C9F2EF4006F413E /* PBXTargetDependency */,
+			);
+			name = "小歪UITests";
+			productName = "小歪UITests";
+			productReference = 84D500311C9F2EF4006F413E /* 小歪UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D500051C9F2EF3006F413E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.ifenduo;
+				TargetAttributes = {
+					84D5000C1C9F2EF3006F413E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 999F9XU4C6;
+					};
+					84D500251C9F2EF3006F413E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 999F9XU4C6;
+						TestTargetID = 84D5000C1C9F2EF3006F413E;
+					};
+					84D500301C9F2EF4006F413E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 999F9XU4C6;
+						TestTargetID = 84D5000C1C9F2EF3006F413E;
+					};
+				};
+			};
+			buildConfigurationList = 84D500081C9F2EF3006F413E /* Build configuration list for PBXProject "小歪" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D500041C9F2EF3006F413E;
+			productRefGroup = 84D5000E1C9F2EF3006F413E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D5000C1C9F2EF3006F413E /* 小歪 */,
+				84D500251C9F2EF3006F413E /* 小歪Tests */,
+				84D500301C9F2EF4006F413E /* 小歪UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D5000B1C9F2EF3006F413E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D500201C9F2EF3006F413E /* LaunchScreen.storyboard in Resources */,
+				84D5001D1C9F2EF3006F413E /* Assets.xcassets in Resources */,
+				84D5001B1C9F2EF3006F413E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D500241C9F2EF3006F413E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5002F1C9F2EF4006F413E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D500091C9F2EF3006F413E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D500181C9F2EF3006F413E /* ViewController.m in Sources */,
+				84D500AF1C9F3FE0006F413E /* XYRobotManager.m in Sources */,
+				84D500151C9F2EF3006F413E /* AppDelegate.m in Sources */,
+				84D500121C9F2EF3006F413E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D500221C9F2EF3006F413E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5002B1C9F2EF3006F413E /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5002D1C9F2EF4006F413E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D500361C9F2EF4006F413E /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D500281C9F2EF3006F413E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D5000C1C9F2EF3006F413E /* 小歪 */;
+			targetProxy = 84D500271C9F2EF3006F413E /* PBXContainerItemProxy */;
+		};
+		84D500331C9F2EF4006F413E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D5000C1C9F2EF3006F413E /* 小歪 */;
+			targetProxy = 84D500321C9F2EF4006F413E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D500191C9F2EF3006F413E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D5001A1C9F2EF3006F413E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D5001E1C9F2EF3006F413E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D5001F1C9F2EF3006F413E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D500381C9F2EF4006F413E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84D500391C9F2EF4006F413E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D5003B1C9F2EF4006F413E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$SRCROOT/lib/**";
+				INFOPLIST_FILE = "小歪/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/小歪/lib/FANN",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifenduo.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84D5003C1C9F2EF4006F413E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$SRCROOT/lib/**";
+				INFOPLIST_FILE = "小歪/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/小歪/lib/FANN",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifenduo.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84D5003E1C9F2EF4006F413E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "小歪Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifenduo.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/小歪.app/小歪";
+			};
+			name = Debug;
+		};
+		84D5003F1C9F2EF4006F413E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "小歪Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifenduo.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/小歪.app/小歪";
+			};
+			name = Release;
+		};
+		84D500411C9F2EF4006F413E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "小歪UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifenduo.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "小歪";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84D500421C9F2EF4006F413E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "小歪UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifenduo.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "小歪";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D500081C9F2EF3006F413E /* Build configuration list for PBXProject "小歪" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D500381C9F2EF4006F413E /* Debug */,
+				84D500391C9F2EF4006F413E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D5003A1C9F2EF4006F413E /* Build configuration list for PBXNativeTarget "小歪" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5003B1C9F2EF4006F413E /* Debug */,
+				84D5003C1C9F2EF4006F413E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D5003D1C9F2EF4006F413E /* Build configuration list for PBXNativeTarget "小歪Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5003E1C9F2EF4006F413E /* Debug */,
+				84D5003F1C9F2EF4006F413E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D500401C9F2EF4006F413E /* Build configuration list for PBXNativeTarget "小歪UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D500411C9F2EF4006F413E /* Debug */,
+				84D500421C9F2EF4006F413E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D500051C9F2EF3006F413E /* Project object */;
+}
